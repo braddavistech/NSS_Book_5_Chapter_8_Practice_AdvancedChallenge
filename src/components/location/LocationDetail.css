@@ -1,0 +1,40 @@
+header {
+  margin-top: 2vw;
+}
+.indiv-location {
+  width: 90%;
+  margin-left: 5%;
+}
+.indiv-locationCard{
+  margin: 2%;
+  display: inline-block;
+  width: 60%;
+  padding: 2%;
+  display: inline-block;
+  width: 60%;
+  border-radius: 10px;
+  background-color: white;
+}
+.indiv-locationName {
+  font-size: 25px;
+  padding-top: 1%;
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+.indiv-locationBreed {
+  font-size: 15px;
+  font-weight: bold;
+}
+#locationDeleteButton {
+  padding: 6%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+  font-weight: bold;
+  color: rgb(139, 58, 58);
+  border-radius: 20px !important;
+}
+#locationDeleteButton:hover {
+  background-color: red;
+  color: white;
+}

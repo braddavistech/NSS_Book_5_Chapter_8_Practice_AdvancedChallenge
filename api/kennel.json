@@ -1,0 +1,398 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "key": 1,
+      "name": "Jessica Davis",
+      "phone": "615-472-8600"
+    },
+    {
+      "id": 2,
+      "key": 1,
+      "name": "Jordan Nelson",
+      "phone": "615-388-2830"
+    },
+    {
+      "id": 3,
+      "key": 1,
+      "name": "Zoe LeBlanc",
+      "phone": "615-796-0863"
+    },
+    {
+      "id": 4,
+      "key": 1,
+      "name": "Blaise Roberts",
+      "phone": "615-986-8000"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "key": 2,
+      "name": "Nashville North",
+      "address": "500 Puppy Way",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "zip": "37207",
+      "phone": "(615)-862-8600"
+    },
+    {
+      "id": 2,
+      "key": 2,
+      "name": "Nashville South",
+      "address": "400 Dog Park",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "zip": "36892",
+      "phone": "(615)-862-8600"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "key": 3,
+      "name": "Tiny",
+      "breed": "Mastif"
+    },
+    {
+      "id": 2,
+      "key": 3,
+      "name": "Pedro",
+      "breed": "Schnauzer"
+    },
+    {
+      "id": 3,
+      "key": 3,
+      "name": "Ivy",
+      "breed": "Bulldog"
+    },
+    {
+      "id": 4,
+      "key": 3,
+      "name": "Stinky",
+      "breed": "Boxer"
+    },
+    {
+      "id": 5,
+      "key": 3,
+      "name": "Brownie",
+      "breed": "Lab"
+    },
+    {
+      "id": 6,
+      "key": 3,
+      "name": "Snowball",
+      "breed": "Husky"
+    },
+    {
+      "id": 7,
+      "key": 3,
+      "name": "Heavy",
+      "breed": "Saint Bernard"
+    },
+    {
+      "id": 8,
+      "key": 3,
+      "name": "Snuggles",
+      "breed": "Golden Retriever"
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "key": 4,
+      "name": "Jessica Davis",
+      "phone": "615-555-5555"
+    },
+    {
+      "id": 2,
+      "key": 4,
+      "name": "Steve Martin",
+      "phone": "615-892-1212"
+    },
+    {
+      "id": 3,
+      "key": 4,
+      "name": "Dan Akroid",
+      "phone": "615-765-2341"
+    },
+    {
+      "id": 4,
+      "key": 4,
+      "name": "Pauly D",
+      "phone": "615-875-1080"
+    },
+    {
+      "id": 5,
+      "key": 4,
+      "name": "Deanna Davis",
+      "phone": "615-987-6543"
+    }
+  ],
+  "animalOwners": [
+    {
+      "id": 1,
+      "key": 5,
+      "animalId": 1,
+      "ownerId": 3
+    },
+    {
+      "id": 2,
+      "key": 5,
+      "animalId": 2,
+      "ownerId": 2
+    },
+    {
+      "id": 3,
+      "key": 5,
+      "animalId": 3,
+      "ownerId": 2
+    },
+    {
+      "id": 4,
+      "key": 5,
+      "animalId": 7,
+      "ownerId": 1
+    },
+    {
+      "id": 5,
+      "key": 5,
+      "animalId": 5,
+      "ownerId": 4
+    },
+    {
+      "id": 6,
+      "key": 5,
+      "animalId": 4,
+      "ownerId": 2
+    },
+    {
+      "id": 7,
+      "key": 5,
+      "animalId": 6,
+      "ownerId": 4
+    }
+  ],
+  "objectTypes": [
+    {
+      "id": 1,
+      "name": "EMPLOYEES"
+    },
+    {
+      "id": 2,
+      "name": "LOCATIONS"
+    },
+    {
+      "id": 3,
+      "name": "ANIMALS"
+    },
+    {
+      "id": 4,
+      "name": "OWNERS"
+    },
+    {
+      "id": 5,
+      "name": "ANIMALS/OWNERS"
+    }
+  ],
+  "duplicateCopyToTestDelete": [
+    {
+      "employees": [
+        {
+          "id": 1,
+          "key": 1,
+          "name": "Jessica Davis",
+          "phone": "615-472-8600"
+        },
+        {
+          "id": 2,
+          "key": 1,
+          "name": "Jordan Nelson",
+          "phone": "615-388-2830"
+        },
+        {
+          "id": 3,
+          "key": 1,
+          "name": "Zoe LeBlanc",
+          "phone": "615-796-0863"
+        },
+        {
+          "id": 4,
+          "key": 1,
+          "name": "Blaise Roberts",
+          "phone": "615-986-8000"
+        }
+      ],
+      "locations": [
+        {
+          "id": 1,
+          "key": 2,
+          "name": "Nashville North",
+          "address": "500 Puppy Way",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37207",
+          "phone": "(615)-862-8600"
+        },
+        {
+          "id": 2,
+          "key": 2,
+          "name": "Nashville South",
+          "address": "400 Dog Park",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "36892",
+          "phone": "(615)-862-8600"
+        }
+      ],
+      "animals": [
+        {
+          "id": 1,
+          "key": 3,
+          "name": "Tiny",
+          "breed": "Mastif"
+        },
+        {
+          "id": 2,
+          "key": 3,
+          "name": "Pedro",
+          "breed": "Schnauzer"
+        },
+        {
+          "id": 3,
+          "key": 3,
+          "name": "Ivy",
+          "breed": "Bulldog"
+        },
+        {
+          "id": 4,
+          "key": 3,
+          "name": "Stinky",
+          "breed": "Boxer"
+        },
+        {
+          "id": 5,
+          "key": 3,
+          "name": "Brownie",
+          "breed": "Lab"
+        },
+        {
+          "id": 6,
+          "key": 3,
+          "name": "Snowball",
+          "breed": "Husky"
+        },
+        {
+          "id": 7,
+          "key": 3,
+          "name": "Heavy",
+          "breed": "Saint Bernard"
+        },
+        {
+          "id": 8,
+          "key": 3,
+          "name": "Snuggles",
+          "breed": "Golden Retriever"
+        }
+      ],
+      "owners": [
+        {
+          "id": 1,
+          "key": 4,
+          "name": "Jessica Davis",
+          "phone": "615-555-5555"
+        },
+        {
+          "id": 2,
+          "key": 4,
+          "name": "Steve Martin",
+          "phone": "615-892-1212"
+        },
+        {
+          "id": 3,
+          "key": 4,
+          "name": "Dan Akroid",
+          "phone": "615-765-2341"
+        },
+        {
+          "id": 4,
+          "key": 4,
+          "name": "Pauly D",
+          "phone": "615-875-1080"
+        },
+        {
+          "id": 5,
+          "key": 4,
+          "name": "Deanna Davis",
+          "phone": "615-987-6543"
+        }
+      ],
+      "animalOwners": [
+        {
+          "id": 1,
+          "key": 5,
+          "animalId": 1,
+          "ownerId": 3
+        },
+        {
+          "id": 2,
+          "key": 5,
+          "animalId": 2,
+          "ownerId": 2
+        },
+        {
+          "id": 3,
+          "key": 5,
+          "animalId": 3,
+          "ownerId": 2
+        },
+        {
+          "id": 4,
+          "key": 5,
+          "animalId": 7,
+          "ownerId": 1
+        },
+        {
+          "id": 5,
+          "key": 5,
+          "animalId": 5,
+          "ownerId": 4
+        },
+        {
+          "id": 6,
+          "key": 5,
+          "animalId": 4,
+          "ownerId": 2
+        },
+        {
+          "id": 7,
+          "key": 5,
+          "animalId": 6,
+          "ownerId": 4
+        }
+      ],
+      "objectTypes": [
+        {
+          "id": 1,
+          "name": "EMPLOYEES"
+        },
+        {
+          "id": 2,
+          "name": "LOCATIONS"
+        },
+        {
+          "id": 3,
+          "name": "ANIMALS"
+        },
+        {
+          "id": 4,
+          "name": "OWNERS"
+        },
+        {
+          "id": 5,
+          "name": "ANIMALS/OWNERS"
+        }
+      ]
+    }
+  ]
+}

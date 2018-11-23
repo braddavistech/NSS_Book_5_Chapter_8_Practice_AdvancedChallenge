@@ -1,0 +1,74 @@
+#fullSearch {
+  margin-top: 2vw;
+}
+#mainSearchTitle {
+  padding: 0px;
+  line-height: 1;
+}
+#resultsTitle {
+  font-weight: bold;
+  font-size: 23px;
+}
+.sectionTitles {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0px;
+  margin-top: 4%;
+}
+.numberOfResults {
+  font-weight: bold;
+  font-size: 15px;
+}
+.animalCard{
+  margin: 2%;
+  padding: 1%;
+  display: inline-block;
+  width: 25%;
+  border-radius: 10px;
+  background-color: white;
+}
+.icon--dog {
+  width: 80%;
+}
+.detailsLink {
+  padding: 4%;
+  padding-top: 0%;
+  margin-right: 3%;
+  margin-top: 5%;
+  padding-bottom: 0%;
+  background-color: white;
+  color: #428042;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.detailsLink:hover {
+  background-color: green;
+  color: white;
+}
+#deleteButton {
+  padding: 6%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+  font-weight: bold;
+  color: rgb(139, 58, 58);
+  border-radius: 20px;
+}
+#deleteButton:hover {
+  background-color: red;
+  color: white;
+}
+.name {
+  font-size: 25px;
+  padding-top: 1%;
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+.otherCard {
+  margin: 2%;
+  padding-bottom: 1%;
+  display: inline-block;
+  width: 40%;
+  border-radius: 10px;
+  background-color: white;
+}

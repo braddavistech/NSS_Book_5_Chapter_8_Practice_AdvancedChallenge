@@ -1,0 +1,50 @@
+header {
+  font-size: 6vw;
+}
+.address {
+  margin: 2%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  display: inline-block;
+  width: 45%;
+  border-radius: 10px;
+  background-color: white;
+}
+.address > h4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.address > h5 {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.detailsLocation {
+  padding: 4%;
+  padding-top: 0%;
+  margin-right: 3%;
+  padding-bottom: 0%;
+  background-color: white;
+  color: #428042;
+  border-radius: 20px !important;
+  font-weight: bold;
+}
+.detailsLocation:hover {
+  background-color: green;
+  color: white;
+}
+#deleteLocation {
+  padding: 6%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+  font-weight: bold;
+  color: rgb(139, 58, 58);
+  border-radius: 20px !important;
+}
+#deleteLocation:hover {
+  background-color: red;
+  color: white;
+}

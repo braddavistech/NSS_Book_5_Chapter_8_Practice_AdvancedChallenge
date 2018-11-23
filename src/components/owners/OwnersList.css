@@ -1,0 +1,47 @@
+.owners {
+  margin: 2%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  display: inline-block;
+  width: 45%;
+  border-radius: 10px;
+  background-color: white;
+}
+.owners > h4 {
+  font-size: 25px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.owners > h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.detailsOwner {
+  padding: 4%;
+  padding-top: 0%;
+  margin-right: 3%;
+  padding-bottom: 0%;
+  background-color: white;
+  color: #428042;
+  border-radius: 20px !important;
+  font-weight: bold;
+}
+.detailsOwner:hover {
+  background-color: green;
+  color: white;
+}
+#deleteButton {
+  padding: 6%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+  font-weight: bold;
+  color: rgb(139, 58, 58);
+  border-radius: 20px !important;
+}
+#deleteButton:hover {
+  background-color: red;
+  color: white;
+}
+

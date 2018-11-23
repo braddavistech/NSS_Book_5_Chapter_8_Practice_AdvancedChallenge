@@ -1,0 +1,36 @@
+.navbar {
+  background-color: white;
+}
+.nav-item {
+  padding-bottom: .3vw;
+}
+#searchInput {
+  font-weight: bold;
+  background-color: #007bff;
+  flex-direction: column;
+  position: fixed;
+  right: 2vw;
+  top: 4px;
+  padding: 3px;
+}
+::placeholder {
+  color: darkgray;
+  text-align: center;
+}
+#searchInput > input {
+  display: inline-flex;
+}
+.searchOptions {
+  display: flex;
+  flex-direction: column;
+  margin-top: .5vw;
+  margin-bottom: .5vw;
+  list-style-type: none;
+  background-color: #007bff;
+  padding: .25%;
+}
+#navbarSearchResults {
+  background-color: white;
+  padding: 1%;
+  position: fixed;
+}
