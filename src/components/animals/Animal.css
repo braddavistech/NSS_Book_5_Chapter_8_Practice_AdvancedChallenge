@@ -1,0 +1,38 @@
+.animalForm {
+  margin-top: 2vw;
+}
+.form-group {
+  width: 70%;
+  margin-left: 15%;
+}
+.animalFormInput {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.animalFormInput > label {
+  font-weight: bold;
+}
+.selectCaretaker {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+}
+#employee {
+  font-weight: bold;
+  width: 50%;
+  margin-left: 25%;
+}
+.button {
+  margin: 2%;
+  width: 15%;
+  border-radius: 12px;
+}

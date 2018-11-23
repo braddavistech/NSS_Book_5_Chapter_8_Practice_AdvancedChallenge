@@ -44,4 +44,8 @@
   background-color: red;
   color: white;
 }
-
+.ownerButton {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 10px 0;
+}
