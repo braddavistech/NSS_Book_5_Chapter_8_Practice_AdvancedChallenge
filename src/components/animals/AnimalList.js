@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import APITools from "../../modules/APITools";
 import "./AnimalList.css";
 import dog from "./DogIcon.png"
 
 
 class AnimalList extends Component {
-  render() {
 
+  render() {
+    if (this.props.formBool) {
+      return <Redirect to="/animals/new" />
+    }
     return (
       <div id="ApplicationView">
         <header>CURRENT ANIMALS</header>
@@ -15,7 +18,7 @@ class AnimalList extends Component {
           <button type="button"
             className="btn btn-success"
             onClick={() => {
-              this.props.history.push("/animals/new")
+              this.props.addForm()
             }
             }>
             Admit Animal

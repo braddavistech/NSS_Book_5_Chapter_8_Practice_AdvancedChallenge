@@ -18,10 +18,21 @@ export default Object.create(null, {
   },
   deleteItem: {
     value: function (category, id) {
-      return fetch(`http://localhost:8088/${category}/${id}`, {
+      return fetch(`${localURL}${category}/${id}`, {
         method: "DELETE"
       })
         .then(e => e.json())
+    }
+  },
+  post: {
+    value: function (category, object) {
+      return fetch(`${localURL}${category}`, {
+        method: "Post",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(object)
+      }).then(data => data.json)
     }
   }
 
